@@ -72,3 +72,12 @@ h1 {
   font-weight: 200;
   font-size: medium;
 }
+
+#about {
+    display: flex;
+}
+
+#img_about {
+    width: 100%;
+    
+}
