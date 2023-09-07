@@ -38,7 +38,7 @@ nav {
   z-index: 1;
   position: fixed;
   width: 100%;
-  height: 55px;  
+  height: 55px;
   top: 0;
 }
 
@@ -73,11 +73,19 @@ h1 {
   font-size: medium;
 }
 
+/* MAIN */
+/* SECTION ABOUT */
 #about {
-    display: flex;
+  margin: 100px;
+  display: flex;
+}
+
+#about_text h2,
+h3 {
+  text-align: center;
+  margin: 20px;
 }
 
 #img_about {
-    width: 100%;
-    
+  width: 100%;
 }
