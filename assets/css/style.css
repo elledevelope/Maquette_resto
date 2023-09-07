@@ -1,40 +1,69 @@
+/* Importation des fonts */
+@font-face {
+  /* creation d'un raccourci */
+  font-family: "playfairDR";
+  src: url(../font/PlayfairDisplay-Regular.ttf);
+}
+
+/* RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: playfairDR, serif;
+}
+
 /* Pour appeler id logo j'utilise selecteur id# et son nom logo */
 #logo {
-    color: rgb(68, 21, 21);
+  color: rgb(68, 21, 21);
+  padding: 1rem;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  font-size: small;
 }
 
 /* Pour appeler un element (tag) html dans un selecteur j'utilise son nom */
 nav {
-    display: flex;
-
-    /* pour gerer l'alinement verticale des enfant de ma nav j'utiluse aling-item */
-    align-items: center;
-    justify-content: space-between;   
+  display: flex;
+  /* pour gerer l'alinement verticale des enfant de ma nav j'utiluse aling-item */
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  font-size: small;
+  box-shadow: 0px 3px 9px 1px rgba(122, 120, 120, 0.75);
+  -webkit-box-shadow: 0px 3px 9px 1px rgba(122, 120, 120, 0.75);
+  -moz-box-shadow: 0px 3px 9px 1px rgba(122, 120, 120, 0.75);
+  /* le z-index ne functionne pas avec une position statique (position par défaut) */
+  z-index: 1;
+  position: relative;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;   
+  display: flex;
+  list-style-type: none;
 }
 
 li {
-    padding: 16px;
+  padding: 16px;
 }
-
 
 #img_header {
-    background-image: url("../img/hamburger.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    background-position: center;    
-    display: flex;
+  background-image: url("../img/hamburger.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
 }
 
-
 h1 {
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding: 1rem;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: medium;
 }
