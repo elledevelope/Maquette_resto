@@ -74,21 +74,30 @@ h1 {
   padding: 1rem;
   letter-spacing: 2px;
   font-weight: 200;
-  font-size: medium;
+  font-size: 35;
 }
+
+
 
 /* MAIN */
 /* SECTION ABOUT */
-#about {
+/* SECTION MENU */
+
+
+#about, #menu {
   display: flex;
   justify-content: space-between;
   width: 70%;
   margin: 2rem auto;
 }
 
-#about div {
+#about div, #menu div {
   border: 1px red solid;
   width: 46%;
+}
+
+#about img, #menu img {
+  width: 100%;
 }
 
 #about_text h2,
@@ -99,14 +108,14 @@ h3 {
   line-height: 80px;
 }
 
-#about_text h2 {
+#about_text h2, {
   font-size: 4ch;
 }
 
 #about_text p {
-  padding: 20px;
+  padding: 20px 0;
+  margin: 0;
 }
-
 
 #about span {
   background-color: rgba(218, 210, 210, 0.482);
@@ -114,11 +123,27 @@ h3 {
 
 #about p:first-child {
   font-weight: 500;
-  /* margin: .5rem 0; */
+  /* margin: 0.5rem 0; */
 }
 
 #about p:nth-child(4) {
   color: gray;
 }
 
+#list-menu h3, p{
+  text-align: left;
+  /* padding: 0 auto; */
 
+}
+
+#list-menu p {
+  font-size: 13px;
+  color: grey;
+}
+
+#list-menu h2 {
+  text-align: center;
+  font-size: 4ch;
+}
+
+/* SECTION CONTACT */
