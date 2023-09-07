@@ -12,6 +12,10 @@
   font-family: playfairDR, serif;
 }
 
+img {
+  width: 100%;
+}
+
 /* Pour appeler id logo j'utilise selecteur id# et son nom logo */
 #logo {
   color: rgb(68, 21, 21);
@@ -76,16 +80,45 @@ h1 {
 /* MAIN */
 /* SECTION ABOUT */
 #about {
-  margin: 100px;
   display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 2rem auto;
+}
+
+#about div {
+  border: 1px red solid;
+  width: 46%;
 }
 
 #about_text h2,
 h3 {
   text-align: center;
-  margin: 20px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  line-height: 80px;
 }
 
-#img_about {
-  width: 100%;
+#about_text h2 {
+  font-size: 4ch;
 }
+
+#about_text p {
+  padding: 20px;
+}
+
+
+#about span {
+  background-color: rgba(218, 210, 210, 0.482);
+}
+
+#about p:first-child {
+  font-weight: 500;
+  /* margin: .5rem 0; */
+}
+
+#about p:nth-child(4) {
+  color: gray;
+}
+
+
