@@ -92,7 +92,7 @@ h1 {
 }
 
 #about div, #menu div, #contact {
-  border: 1px red solid;
+  /* border: 1px red solid; */
   width: 46%;
 }
 
