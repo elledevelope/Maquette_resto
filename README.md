@@ -44,13 +44,6 @@ Through this project, I've learned valuable lessons about:
 
 Feel free to explore the code and discover these lessons along with me! 🌐💡
 
-I was exploring the fundamentals of HTML and CSS during this learning journey. 🚀💻
-
-## Feedback
-
-Feel free to explore the code and provide any feedback! 👇
-
-
 ## Author
 
 👋 Hello, I'm [@elledevelope](https://github.com/elledevelope/)
