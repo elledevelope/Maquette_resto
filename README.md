@@ -2,7 +2,6 @@
 # My First HTML Project 👩‍💻🎉
 
 Welcome to my first HTML project! In this project, I've used HTML and CSS to create a desktop-first design without incorporating any media queries. This README.md file provides an overview of the project structure and how to get started.
-I was exploring the fundamentals of HTML and CSS during this learning journey. 🚀💻
 
 ## Project Structure
 
