@@ -24,12 +24,12 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/your-username/your-html-project.git 
+   git clone https://github.com/https://github.com/elledevelope/html-css_resto_landing_page
 ```
 2. Navigate to the project directory:
 
 ```bash
-cd your-html-project
+cd html-css_resto_landing_page
 ```
 
 3. Open index.html in your preferred web browser.
