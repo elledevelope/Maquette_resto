@@ -1,7 +1,7 @@
 
-# My First HTML Project 👩‍💻🎉
+# My First HTML/CSS Project 👩‍💻🎉
 
-Welcome to my first HTML project! In this project, I've used HTML and CSS to create a desktop-first design without incorporating any media queries. This README.md file provides an overview of the project structure and how to get started.
+Welcome to my first HTML/CSS project! In this project, I've used HTML and CSS to create a desktop-first design without incorporating any media queries. This README.md file provides an overview of the project structure and how to get started.
 
 ![Screenshot desktop of Resto html/css website](/Screenshot-Maquette-Resto-desktop.png)
 
